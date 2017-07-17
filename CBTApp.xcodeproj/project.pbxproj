@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E0F49591CE52CB400B19532 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F49581CE52CB400B19532 /* Model.swift */; };
+		9E76D8C21CE51D6F00829DDE /* ThoughtTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76D8C11CE51D6F00829DDE /* ThoughtTableViewController.swift */; };
 		9ED45BDB1C02593B00B17653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED45BDA1C02593B00B17653 /* AppDelegate.swift */; };
-		9ED45BDD1C02593B00B17653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED45BDC1C02593B00B17653 /* ViewController.swift */; };
+		9ED45BDD1C02593B00B17653 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED45BDC1C02593B00B17653 /* ItemViewController.swift */; };
 		9ED45BE01C02593B00B17653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ED45BDE1C02593B00B17653 /* Main.storyboard */; };
 		9ED45BE31C02593B00B17653 /* CBTApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ED45BE11C02593B00B17653 /* CBTApp.xcdatamodeld */; };
 		9ED45BE51C02593B00B17653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ED45BE41C02593B00B17653 /* Assets.xcassets */; };
@@ -35,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E0F49581CE52CB400B19532 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9E76D8C11CE51D6F00829DDE /* ThoughtTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThoughtTableViewController.swift; sourceTree = "<group>"; };
 		9ED45BD71C02593B00B17653 /* CBTApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBTApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ED45BDA1C02593B00B17653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9ED45BDC1C02593B00B17653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ED45BDC1C02593B00B17653 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		9ED45BDF1C02593B00B17653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9ED45BE21C02593B00B17653 /* CBTApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CBTApp.xcdatamodel; sourceTree = "<group>"; };
 		9ED45BE41C02593B00B17653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				9ED45BDA1C02593B00B17653 /* AppDelegate.swift */,
-				9ED45BDC1C02593B00B17653 /* ViewController.swift */,
+				9ED45BDC1C02593B00B17653 /* ItemViewController.swift */,
+				9E0F49581CE52CB400B19532 /* Model.swift */,
 				9ED45BDE1C02593B00B17653 /* Main.storyboard */,
 				9ED45BE41C02593B00B17653 /* Assets.xcassets */,
 				9ED45BE61C02593B00B17653 /* LaunchScreen.storyboard */,
 				9ED45BE91C02593B00B17653 /* Info.plist */,
 				9ED45BE11C02593B00B17653 /* CBTApp.xcdatamodeld */,
+				9E76D8C11CE51D6F00829DDE /* ThoughtTableViewController.swift */,
 			);
 			path = CBTApp;
 			sourceTree = "<group>";
@@ -197,15 +203,18 @@
 					9ED45BD61C02593B00B17653 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 72H3ZFZ4X7;
+						LastSwiftMigration = 0820;
 					};
 					9ED45BED1C02593B00B17653 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 72H3ZFZ4X7;
+						LastSwiftMigration = 0820;
 						TestTargetID = 9ED45BD61C02593B00B17653;
 					};
 					9ED45BF81C02593C00B17653 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 72H3ZFZ4X7;
+						LastSwiftMigration = 0820;
 						TestTargetID = 9ED45BD61C02593B00B17653;
 					};
 				};
@@ -262,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ED45BDD1C02593B00B17653 /* ViewController.swift in Sources */,
+				9ED45BDD1C02593B00B17653 /* ItemViewController.swift in Sources */,
+				9E0F49591CE52CB400B19532 /* Model.swift in Sources */,
 				9ED45BE31C02593B00B17653 /* CBTApp.xcdatamodeld in Sources */,
+				9E76D8C21CE51D6F00829DDE /* ThoughtTableViewController.swift in Sources */,
 				9ED45BDB1C02593B00B17653 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,10 +415,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CBTApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TurnToTech.CBTApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -415,10 +430,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CBTApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TurnToTech.CBTApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -430,6 +449,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TurnToTech.CBTAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBTApp.app/CBTApp";
 			};
 			name = Debug;
@@ -442,6 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TurnToTech.CBTAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CBTApp.app/CBTApp";
 			};
 			name = Release;
@@ -453,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TurnToTech.CBTAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CBTApp;
 				USES_XCTRUNNER = YES;
 			};
@@ -465,6 +487,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TurnToTech.CBTAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CBTApp;
 				USES_XCTRUNNER = YES;
 			};
@@ -489,6 +512,7 @@
 				9ED45C041C02593C00B17653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ED45C051C02593C00B17653 /* Build configuration list for PBXNativeTarget "CBTAppTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +521,7 @@
 				9ED45C071C02593C00B17653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9ED45C081C02593C00B17653 /* Build configuration list for PBXNativeTarget "CBTAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +530,7 @@
 				9ED45C0A1C02593C00B17653 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
